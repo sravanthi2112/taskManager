@@ -1,0 +1,47 @@
+
+.completed-todo{
+    text-decoration: line-through;
+    margin-left: 5px;
+    color: rgb(69, 69, 70);
+}
+
+
+.icons{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    padding-top: 3px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.dark-icons{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    padding-top: 3px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    color: rgb(186, 186, 187);
+}
+
+.icon{
+    color: rgb(66, 66, 66);
+}
+
+.small-screen-options{
+    display: none;
+}
+
+
+@media screen and (max-width: 660px) {
+    .small-screen-options{
+        display: flex;
+    }
+    .large-screen-options{
+        display: none;
+    }
+}
+
